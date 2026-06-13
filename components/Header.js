@@ -9,6 +9,13 @@ export default function Header({ name }) {
           <a>{name}</a>
         </Link>
       </p>
+      <div className="flex justify-center mt-4">
+        <Link href="/ipo-tracker">
+          <a className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium bg-blue-600 text-white hover:bg-blue-700 transition-colors">
+            📈 IPO Tracker Brasil
+          </a>
+        </Link>
+      </div>
     </header>
   );
 }
